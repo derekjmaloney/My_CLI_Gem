@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require '../lib/Environment'
+
+
+
+
+FreeNYC::CLI.new.call
+FreeNYC::Event.new.today
