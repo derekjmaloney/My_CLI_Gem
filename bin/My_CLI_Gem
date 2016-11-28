@@ -5,4 +5,3 @@ require '../lib/Environment'
 
 
 FreeNYC::CLI.new.call
-FreeNYC::Event.new.today
