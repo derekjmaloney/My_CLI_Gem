@@ -12,20 +12,12 @@ attr_accessor :name, :location, :availability, :url, :description
       events = []
       doc = Nokogiri::HTML(open("https://www.timeout.com/newyork/things-to-do/free-things-to-do-today"))
 
-
-
       names = doc.css("div.tiles article.feature-item h3") #should be an array. u can call index and .text to read it out
       descriptions = doc.css("div.tiles article.feature-item p") #same
       locations = doc.css("div.tiles div.listings_flags span.icon_pin") #same
       availability = doc.css("div.tiles div.listings_flags span.icon_calendar") #take out "until" from beginning of each
       url = doc.search("div.feature-item__column h3 a")
 
-      # locations_clean = []
-      # locations.each do |combo|
-      #   combo_array = combo.split(",")
-      #   combo_array[2] << locations_clean
-      # end
-      # binding.pry
       #go to TimeOut page on free things to do, scrape the first 3 ones listed
       #extract the properties
       #instantiate an event
@@ -55,24 +47,8 @@ attr_accessor :name, :location, :availability, :url, :description
       events << event_1
       events << event_2
       events << event_3
-      events #we're gonna return the event instances
+      events #we're gonna return the event instances as an array; we use that as instance variable in CLI
     end
-
-    class EventScraper
-
-
-    end
-
-
-
-
-
-
-
-
-
-
-
     #closes classes out
   end
 end

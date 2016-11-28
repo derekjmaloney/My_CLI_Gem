@@ -1,9 +1,6 @@
 # MyCLIGem
 
-This is my attempt at making a CLI Gem.
- Put your Ruby code in the file `lib/My_CLI_Gem`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+  Free_NYC is a Gem I created in order to help me stay active and get the most out of the various free events that NYC has to offer.  Run My_CLI_Gem from the bin folder to get started.
 
 ## Installation
 
@@ -23,11 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ Execute ./bin/My_CLI_Gem in your terminal to begin.  Instructions once program is running are self explanatory :)
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
