@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'My_CLI_Gem/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "My_CLI_Gem"
+  spec.name          = "Free_NYC_Today"
   spec.version       = MyCLIGem::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Derek Maloney"]
+  spec.email         = ["derekjmaloney@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Free things to do today in NYC.}
+  spec.description   = %q{Free things to do today in NYC. Save money and do more free things :) }
+  spec.homepage      = "https://github.com/derekjmaloney/My_CLI_Gem"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

@@ -28,7 +28,7 @@ class FreeNYC
       elsif input == "list"
         list_events
       else
-        puts "Not sure what you're looking for. Please type list or exit" unless input == "exit"
+        puts "Not sure what you're looking for..." unless input == "exit"
       end
     end
   end

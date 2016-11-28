@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install My_CLI_Gem
+    $ gem install Free_NYC_Today
 
 ## Usage
 
