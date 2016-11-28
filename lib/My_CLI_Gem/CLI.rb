@@ -20,11 +20,11 @@ class FreeNYC
   def menu
     input = nil
     while input != "exit"
-    puts "Enter the number of the event you'd like more info on. Alternatively, type list to see the list again, or type exit to exit"
+    puts "\nEnter the number of the event you'd like more info on. Alternatively, type list to see the list again, or type exit to exit"
     input = gets.strip.downcase
       if input.to_i > 0
         given_event = @events_array[input.to_i - 1]
-        puts  "#{given_event.name} \n - #{given_event.description} \n - Located at #{given_event.location} \n - This free event is available #{given_event.availability} \n - Visit here for more info: #{given_event.url}"
+        puts  "\n #{given_event.name} \n\n - #{given_event.description} \n\n - Located at #{given_event.location} \n\n - This free event is available #{given_event.availability} \n\n - Visit here for more info: #{given_event.url} \n \n"
       elsif input == "list"
         list_events
       else
@@ -34,7 +34,7 @@ class FreeNYC
   end
 
   def goodbye
-    puts "Goodbye, check in again tomorrow for new things to do :) "
+    puts "\n\n Goodbye, check in again tomorrow for new things to do :) \n\n"
   end
 #class closes
   end

@@ -1,6 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
 
-require_relative "./Free_NYC_Today/version"
-require_relative './Free_NYC_Today/CLI'
-require_relative './Free_NYC_Today/event'
+require_relative "./My_CLI_Gem/version"
+require_relative './My_CLI_Gem/CLI'
+require_relative './My_CLI_Gem/event'
